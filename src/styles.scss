@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+:root {
+    --primary-color : #1E1E1E;
+    --secondary-color: #DF4B2B;
+    --text-color: #EFEBDF;
+
+    font-family: 'Roboto', sans-serif;
+}
