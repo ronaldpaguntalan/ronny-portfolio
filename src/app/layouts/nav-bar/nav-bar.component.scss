@@ -5,6 +5,7 @@
 .nav-link{
     color: var(--text-color);
     font-weight: bold;
+    transition: filter 0.3s;
 }
 
 a:hover{

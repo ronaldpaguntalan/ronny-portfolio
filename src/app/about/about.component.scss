@@ -1,0 +1,25 @@
+.img-fluid {
+  height: 6em;
+}
+
+.col-4 {
+  padding: 20px;
+}
+
+.col-md-2 {
+  padding: 20px;
+}
+
+.col-sm-3 {
+  padding: 20px;
+}
+
+.svg-icon {
+  filter: grayscale(100%); /* Grayscale filter for initial appearance */
+  transition: filter 0.3s; /* Smooth transition on hover */
+}
+
+/* Remove the grayscale filter on hover */
+.svg-icon:hover {
+  filter: none; /* Remove grayscale filter to make it colorful */
+}

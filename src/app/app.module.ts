@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './layouts/nav-bar/nav-bar.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    HeroSectionComponent
+    HeroSectionComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule
