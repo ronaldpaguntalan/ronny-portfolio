@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './layouts/nav-bar/nav-bar.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     HeroSectionComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule

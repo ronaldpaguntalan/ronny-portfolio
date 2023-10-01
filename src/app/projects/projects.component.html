@@ -1,0 +1,232 @@
+<script>
+  $(document).ready(function () {
+    $('#myCarousel').on('slid.bs.carousel', function (event) {
+      // Get the index of the active item
+      var activeIndex = $(event.target).find('.carousel-item.active').index();
+
+      // Remove active class from all indicators
+      $('#carousel-indicators a').removeClass('active');
+
+      // Add active class to the indicator corresponding to the active item
+      $('#carousel-indicators a[data-bs-slide-to="' + activeIndex + '"]').addClass('active');
+    });
+  });
+</script>
+
+
+<div class="container pt-5">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="fw-bold text-light text-center">PROJECTS</h3>
+    </div>
+    <div class="col-12 mb-4">
+      <p class="fs-5 text-custom text-center">(more coming soon...)</p>
+    </div>
+  </div>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Carousel Inner -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row gy-3">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="assets/image/project-dashboard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card 1</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="assets/image/project-dashboard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card 2</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="assets/image/project-dashboard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card 3</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more carousel items here with additional sets of cards -->
+
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row gy-3">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="assets/image/project-dashboard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card 4</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="assets/image/project-dashboard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card 5</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="assets/image/project-dashboard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card 6</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row gy-3">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="assets/image/project-dashboard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card 7</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="assets/image/project-dashboard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card 8</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="assets/image/project-dashboard.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card 9</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel Controls-->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+
+    <!-- Carousel Indicators-->
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <ul class="list-group list-group-horizontal list-unstyled">
+            <a href="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true">
+              <li class="item-box" >1</li>
+            </a>
+            <a href="#myCarousel" data-bs-slide-to="1">
+              <li class="item-box">2</li>
+            </a>
+            <a href="#myCarousel" data-bs-slide-to="2">
+              <li class="item-box">3</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

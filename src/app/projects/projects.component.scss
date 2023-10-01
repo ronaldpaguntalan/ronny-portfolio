@@ -1,0 +1,36 @@
+.text-custom {
+  color: var(--secondary-color);
+}
+
+.card {
+  background-color: #faf9f6;
+}
+
+.item-box {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.list-group > a {
+  text-decoration: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.item-box:hover {
+  background-color: #faf9f6;
+}
+
+.carousel-control-prev{
+    color: var(--secondary-color) !important;
+}
+
