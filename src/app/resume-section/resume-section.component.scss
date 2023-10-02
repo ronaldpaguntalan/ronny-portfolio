@@ -4,24 +4,17 @@
 .content {
     text-align: center;
     color: #fff; /* Text color */
-    position: absolute;
+    position: relative;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    height: 30vh;
+    height: 50vh;
     width: 100%;
     background-color: rgba(18, 18, 18, 0.8); /* Adjust the background color and opacity as needed */
 }
 
 /* Style the heading */
-h1 {
-    font-size: 3rem;
-    color: #EFEBDF;
-}
-
-/* Style the paragraph */
-p {
-    font-size: 1.5rem;
+h1, p {
     color: #EFEBDF;
 }
 
@@ -33,7 +26,6 @@ p {
     border: 1px solid var(--secondary-color);
     color: #fff; /* Button text color */
     text-decoration: none;
-    font-size: 1.2rem;
     margin-top: 20px;
     transition: background-color 0.3s ease;
 }

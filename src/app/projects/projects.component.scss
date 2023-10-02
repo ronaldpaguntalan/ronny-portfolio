@@ -4,6 +4,15 @@
 
 .card {
   background-color: #faf9f6;
+  cursor: pointer;
+  &:hover {
+    transition: all 0.3s ease-out;
+    bottom: 10px;
+    box-shadow: 0px 4px 8px #df4c2b57;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+  }
 }
 
 .item-box {
