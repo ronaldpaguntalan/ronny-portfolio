@@ -1,23 +1,7 @@
-<script>
-  $(document).ready(function () {
-    $('#myCarousel').on('slid.bs.carousel', function (event) {
-      // Get the index of the active item
-      var activeIndex = $(event.target).find('.carousel-item.active').index();
-
-      // Remove active class from all indicators
-      $('#carousel-indicators a').removeClass('active');
-
-      // Add active class to the indicator corresponding to the active item
-      $('#carousel-indicators a[data-bs-slide-to="' + activeIndex + '"]').addClass('active');
-    });
-  });
-</script>
-
-
-<div class="container pt-5">
+<div class="container pt-5 pb-5">
   <div class="row">
     <div class="col-12">
-      <h3 class="fw-bold text-light text-center">PROJECTS</h3>
+      <h3 class="fw-bold text-center text-color">PROJECTS</h3>
     </div>
     <div class="col-12 mb-4">
       <p class="fs-5 text-custom text-center">(more coming soon...)</p>
@@ -215,7 +199,7 @@
       <div class="row">
         <div class="col-md-12 d-flex justify-content-center">
           <ul class="list-group list-group-horizontal list-unstyled">
-            <a href="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true">
+            <a href="#myCarousel" data-bs-slide-to="0">
               <li class="item-box" >1</li>
             </a>
             <a href="#myCarousel" data-bs-slide-to="1">

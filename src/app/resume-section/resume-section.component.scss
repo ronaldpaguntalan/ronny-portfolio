@@ -1,0 +1,54 @@
+/* Style the parallax container */
+.parallax {
+    background-image: url('../../assets/image/resume-bg.jpg'); /* Replace 'your-image.jpg' with your image file */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    opacity: 0.8; /* Adjust the opacity as needed */
+    position: relative;
+}
+
+/* Style the content within the parallax container */
+.content {
+    padding-top: 4.5rem;
+    text-align: center;
+    color: #fff; /* Text color */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30vh;
+    width: 100%;
+    background-color: rgba(18, 18, 18, 0.8); /* Adjust the background color and opacity as needed */
+}
+
+/* Style the heading */
+h1 {
+    font-size: 3rem;
+    color: #EFEBDF;
+}
+
+/* Style the paragraph */
+p {
+    font-size: 1.5rem;
+    color: #EFEBDF;
+}
+
+/* Style the 'Get a Copy of My Resume' button */
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; /* Button background color */
+    border: 1px solid var(--secondary-color);
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: var(--secondary-color); /* Hover background color */
+}

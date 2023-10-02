@@ -1,0 +1,21 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { ResumeSectionComponent } from './resume-section.component';
+
+describe('ResumeSectionComponent', () => {
+  let component: ResumeSectionComponent;
+  let fixture: ComponentFixture<ResumeSectionComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [ResumeSectionComponent]
+    });
+    fixture = TestBed.createComponent(ResumeSectionComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
