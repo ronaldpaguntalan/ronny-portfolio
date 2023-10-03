@@ -1,0 +1,51 @@
+.row > * {
+  gap: 5px;
+}
+
+.img-fluid {
+  height: 50px;
+}
+
+.svg-icon {
+  filter: grayscale(100%); /* Grayscale filter for initial appearance */
+  transition: filter 0.3s; /* Smooth transition on hover */
+}
+
+/* Remove the grayscale filter on hover */
+.svg-icon:hover {
+  filter: none; /* Remove grayscale filter to make it colorful */
+}
+
+.rocket-container {
+  display: flex;
+  justify-content: center;
+}
+
+.rocket {
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+  width: 70px;
+  height: 70px;
+  background: url("../../../assets/icon/icons8-launch-96.png") no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* Add the fire animation class when hovered */
+.rocket:hover {
+  filter: none;
+  animation: rocketFire 0.5s infinite alternate-reverse;
+}
+
+@keyframes rocketFire {
+  0% {
+    background-image: url("../../../assets/icon/icons8-launch-96.png");
+  }
+  100% {
+    background-image: url("../../../assets/icon/output-onlinegiftools.gif"); /* Replace with your rocket on fire image */
+  }
+}
+
+.text-rocket{
+  color: var(--secondary-color);
+}

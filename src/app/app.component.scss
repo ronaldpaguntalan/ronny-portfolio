@@ -1,12 +1,8 @@
-nav{
+nav, .hero-custom{
     background-color: var(--primary-color) !important;
  }
 
-.hero-custom{
-    background-color: var(--primary-color) !important;
-}
-
-.about-custom{
+.about-custom, .footer-custom{
     align-items: center;
     background-color: #FAF9F6;
 }
