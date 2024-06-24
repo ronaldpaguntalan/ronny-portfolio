@@ -16,3 +16,19 @@ h1, h5{
     background-color: var(--text-color);
     color: var(--secondary-color);
 }
+.btn-talk{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-size: large;
+    border: unset;
+    border-radius: unset;
+}
+
+.btn-works{
+    margin-left: 1rem;
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    font-size: large;
+    border-radius: unset;
+}

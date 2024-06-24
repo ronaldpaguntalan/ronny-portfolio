@@ -5,6 +5,7 @@
 .card {
   background-color: #faf9f6;
   cursor: pointer;
+  height: 450px;
   &:hover {
     transition: all 0.3s ease-out;
     bottom: 10px;
@@ -45,4 +46,13 @@ li {
 
 .text-color{
   color: #EFEBDF;
+}
+
+.card-img-top{
+  height: 200px;
+  object-fit: cover;
+}
+
+a{
+  text-decoration: none !important;
 }

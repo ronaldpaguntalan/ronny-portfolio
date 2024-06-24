@@ -23,3 +23,9 @@
 .svg-icon:hover {
   filter: none; /* Remove grayscale filter to make it colorful */
 }
+
+a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
